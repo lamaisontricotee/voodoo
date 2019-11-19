@@ -85,9 +85,9 @@ a {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: red;
-  background-image: url('../images/2L1uSGm0EH9Cwcqs5OPocYZu1VDPaaOW.jpg'), linear-gradient(135deg, red, #000 29%);
+  background-image: linear-gradient(135deg, #000, transparent 25%), url('../images/2L1uSGm0EH9Cwcqs5OPocYZu1VDPaaOW.jpg');
   background-position: 0px 0px, 0px 0px;
-  background-size: cover, auto;
+  background-size: auto, cover;
 }
 
 .section.column {
@@ -305,7 +305,7 @@ a {
   height: auto;
   padding: 0px 10vw;
   border: 1px none #000;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .nav {
@@ -899,6 +899,7 @@ a {
   width: 100%;
   padding-right: 10vh;
   padding-left: 10vw;
+  background-color: transparent;
 }
 
 .feature-wrap {
@@ -1215,6 +1216,7 @@ a {
 
 .heading-3 {
   background-color: transparent;
+  color: #fff;
 }
 
 .sub-paragraph {
@@ -1231,6 +1233,10 @@ a {
 .sub-paragraph.white {
   border-bottom-color: hsla(0, 0%, 100%, 0.4);
   color: hsla(0, 0%, 100%, 0.6);
+}
+
+.bold-text {
+  font-weight: 500;
 }
 
 @media (max-width: 991px) {
@@ -1260,6 +1266,9 @@ a {
   }
   .nav-inner {
     width: 100vw;
+  }
+  .feature-content {
+    width: 50vw;
   }
   .nav-link {
     padding-top: 20px;
@@ -1296,6 +1305,9 @@ a {
   .feature-wrap.logos {
     margin-top: 5vh;
     margin-bottom: 5vh;
+  }
+  .feature-image {
+    width: 50vw;
   }
   .hero-subhead {
     font-size: 24px;
