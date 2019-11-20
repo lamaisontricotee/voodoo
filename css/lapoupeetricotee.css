@@ -779,7 +779,7 @@ a {
 }
 
 .nav-link:hover {
-  box-shadow: inset 0 -5px 0 0 #fc0a7e;
+  box-shadow: inset 0 -5px 0 0 red;
   color: #fff;
 }
 
